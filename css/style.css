@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* line 1, ../../../Desktop/2019-Programming/SASS-example/css/scss/_buttons.scss */
+.btn-a, .btn-b {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 10px;
+  border: 1px solid blue;
+  border-radius: 7px;
+  font-size: 80%;
+  font-weight: bold;
+  font-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 13, ../../../Desktop/2019-Programming/SASS-example/css/scss/_buttons.scss */
+.btn-b {
+  background-color: #000;
+}
+
+/* line 10, ../../../Desktop/2019-Programming/SASS-example/css/scss/style.scss */
+body {
+  font-family: Helvetica, sans-serif;
+  color: blue;
+}
+
+/* line 15, ../../../Desktop/2019-Programming/SASS-example/css/scss/style.scss */
+h1 {
+  color: navy;
+}
+
+/* line 22, ../../../Desktop/2019-Programming/SASS-example/css/scss/style.scss */
+body ul {
+  background-color: #9999ff;
+}
+
+/* line 26, ../../../Desktop/2019-Programming/SASS-example/css/scss/style.scss */
+body li {
+  display: block;
+  max-width: 300px;
+  margin: 8px;
+  padding: 12px;
+  background-color: #ccccff;
+  color: red;
+  font-size: 20px;
+  font-weight:  bold;
+  border:  1px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */

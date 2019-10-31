@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"scss/style.scss",
+		"scss/_buttons.scss",
+		"scss/_mixins.scss"
+	],
+	"sourcesContent": [
+		"// Let's start doing some SASS\r\n\r\n// #1. Define varaibles\r\n$mainColor : blue;\r\n\r\n@import 'buttons';\r\n@import 'mixins';\r\n\r\n\r\nbody {\r\n    font-family: Helvetica, sans-serif;\r\n    color: $mainColor;\r\n}\r\n\r\nh1 {\r\n    color: darken($mainColor, 25%);\r\n}\r\n\r\n\r\n// #2. Nesting\r\nbody {\r\n    ul {\r\n        background-color: lighten($mainColor, 30%);\r\n    }\r\n\r\n    li {\r\n        display: block;\r\n        max-width: 300px;\r\n        margin: 8px;\r\n        padding: 12px;\r\n        background-color: lighten($mainColor, 40%);\r\n        @include important-text();\r\n    }\r\n}\r\n\r\n",
+		".btn-a {\r\n    display: inline-block;\r\n    padding: 15px;\r\n    margin-right: 10px;\r\n    border: 1px solid $mainColor;\r\n    border-radius: 7px;\r\n    font-size: 80%;\r\n    font-weight: bold;\r\n    font-transform: uppercase;\r\n    text-decoration: none;\r\n}\r\n\r\n.btn-b {\r\n    @extend .btn-a;\r\n    background-color: #000;\r\n}",
+		"@mixin important-text {\r\n    color: red;\r\n    font-size: 20px;\r\n    font-weight: bold; \r\n    border: 1px solid blue;\r\n}"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,MAAM,EAYN,MAAM,CAZC;EACH,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,GAAG,CAAC,KAAK,CDDR,IAAI;ECEb,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;EACzB,eAAe,EAAE,IAAI;CACxB;;;AAED,AAAA,MAAM,CAAC;EAEH,gBAAgB,EAAE,IAAI;CACzB;;;ADND,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,qBAAqB;EAClC,KAAK,EARI,IAAI;CAShB;;;AAED,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAuB;CACjC;;;AAID,AACI,IADA,CACA,EAAE,CAAC;EACC,gBAAgB,EAAE,OAAwB;CAC7C;;;AAHL,AAKI,IALA,CAKA,EAAE,CAAC;EACC,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAwB;EE7B9C,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAC,KAAK;EACjB,MAAM,EAAC,eAAe;CF4BrB"
+}

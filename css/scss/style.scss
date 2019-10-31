@@ -1,0 +1,35 @@
+// Let's start doing some SASS
+
+// #1. Define varaibles
+$mainColor : blue;
+
+@import 'buttons';
+@import 'mixins';
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: $mainColor;
+}
+
+h1 {
+    color: darken($mainColor, 25%);
+}
+
+
+// #2. Nesting
+body {
+    ul {
+        background-color: lighten($mainColor, 30%);
+    }
+
+    li {
+        display: block;
+        max-width: 300px;
+        margin: 8px;
+        padding: 12px;
+        background-color: lighten($mainColor, 40%);
+        @include important-text();
+    }
+}
+
