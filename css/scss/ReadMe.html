@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Table of Content</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body class="vscode-light">
+        <h1 id="table-of-content">Table of Content</h1>
+<ul>
+<li><a href="#table-of-content">Table of Content</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#section-one">Section One</a></li>
+<li><a href="#section-two">Section Two</a></li>
+<li><a href="#section-three">Section Three</a></li>
+<li><a href="#section-four">Section Four</a></li>
+<li><a href="#section-five">Section five</a></li>
+<li><a href="#section-six">Section Six</a></li>
+<li><a href="#section-seven">Section Seven</a></li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<p>This is an introduction to the whole document. We recommend reading it <strong>carefully</strong> as it contains <em>very valuable infomration</em>. Also any outdated informtion will be <s>striked through</s>.</p>
+<p>The rest of this document is divided into:</p>
+<ul>
+<li>
+<p>Section 1</p>
+</li>
+<li>
+<p>Section 2</p>
+</li>
+<li>
+<p>Section 3 - Famous quotes</p>
+</li>
+<li>
+<p>Section 4 - Code Snippets. Contains of 3 sub-sections:</p>
+<ol>
+<li>Sub-section 3.1: HTML example</li>
+<li>Sub-section 3.2: JavaScript example</li>
+<li>Sub-section 3.3: Java example</li>
+</ol>
+</li>
+<li>
+<p>Section 5 - Important tables</p>
+</li>
+</ul>
+<h1 id="section-one">Section One</h1>
+<p>The first section of the document always comes first. Hence, it is a must to read it directly after the introduction.</p>
+<h1 id="section-two">Section Two</h1>
+<p>The Second section always comes after the first section. <em><strong>In some rare cases,</strong></em> you can skip reading the first section and start with the second section in case you are already familiar with the topics presented in the first section. However; we do not recommend doing this.</p>
+<h1 id="section-three">Section Three</h1>
+<p>Contains quotes from famous scientists such as</p>
+<blockquote>
+<p>Time is always irreversible - Albert Einstien</p>
+</blockquote>
+<blockquote>
+<p>An Apple is not always red - Sir Eissacc Newton</p>
+</blockquote>
+<h1 id="section-four">Section Four</h1>
+<p>Contains useful code snippts in various programming languages.</p>
+<p>In many of the examples we are using two varaibles <code>x y</code> within a function <code>myFunction</code> inorder to demoenstrate how to use functions and variables.</p>
+<pre><code class="language-html"><div>
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>This is Heading-1<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is a paragraph<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This is another paragraph<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+</div></code></pre>
+<pre><code class="language-javascript"><div>
+<span class="hljs-comment">// Create a function myFucntion</span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">myFunction</span> (<span class="hljs-params">x,y</span>) </span>{
+    <span class="hljs-keyword">if</span> (x &gt; y)
+        <span class="hljs-built_in">console</span>.log (<span class="hljs-string">`The first param: <span class="hljs-subst">${x}</span> is greater than the second param: <span class="hljs-subst">${y}</span>`</span>);
+    <span class="hljs-keyword">else</span>
+        <span class="hljs-built_in">console</span>.log (<span class="hljs-string">`The first param: <span class="hljs-subst">${x}</span> is less than or equal to the second param: <span class="hljs-subst">${y}</span>`</span>);
+}
+
+</div></code></pre>
+<pre><code class="language-java"><div>
+<span class="hljs-comment">// Create a function myFucntion</span>
+
+<span class="hljs-function">function <span class="hljs-title">myFunction</span> <span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{
+    <span class="hljs-keyword">if</span> (x &gt; y)
+        system.out(<span class="hljs-string">"The first param: "</span> + x + <span class="hljs-string">" is greater than the second param: "</span> + <span class="hljs-string">"y"</span>);
+    <span class="hljs-keyword">else</span>
+        system.out(<span class="hljs-string">"The first param: "</span> + x + <span class="hljs-string">" is less than or equal to the second param: "</span> + <span class="hljs-string">"y"</span>);
+
+}
+
+</div></code></pre>
+<h1 id="section-five">Section five</h1>
+<p>This section contains some important tables. Studying these tables is crucial to the understanding the whole system.</p>
+<table>
+<thead>
+<tr>
+<th>Col1</th>
+<th>Col2</th>
+<th>Col 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data11</td>
+<td>Data12</td>
+<td>Data13</td>
+</tr>
+<tr>
+<td>Data21</td>
+<td>Data22</td>
+<td>Data33</td>
+</tr>
+<tr>
+<td>Data31</td>
+<td>Data32</td>
+<td>Data33</td>
+</tr>
+<tr>
+<td>Data41</td>
+<td>Data42</td>
+<td>Data43</td>
+</tr>
+</tbody>
+</table>
+<h1 id="section-six">Section Six</h1>
+<p>In this section, we will check some URLs</p>
+<p>You can find online courses on the following sites:</p>
+<ul>
+<li><a href="https://www.YouTube.com">YouTube</a></li>
+<li><a href="http://wwww.Udemy.com">Udemy</a></li>
+<li><a href="http://wwww.Udacity.com">Udacity</a></li>
+</ul>
+<h1 id="section-seven">Section Seven</h1>
+<p>In this section, we will see how images work</p>
+<p><img src="https://via.placeholder.com/150" alt="placeholder image"></p>
+<p><img src="https://picsum.photos/200" alt="Another placeholder image"></p>
+
+    </body>
+    </html>
